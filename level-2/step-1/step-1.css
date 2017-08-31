@@ -12,12 +12,17 @@
     background: #D8D8D8;
 }
 
-/*  Step-1 You need to get all of these elements to line up side by side. What display property would do this for you? */
+/*  Step-1 You need to get all of these elements to line up side by side. What display
+property would do this for you? */
 
 .menu {
+    margin-top: 10px;
+    margin-left: 10px;
     width: 100px;
     height: 40px;
     background: #536A63;
+    display: inline-block;
+    float: left;
 }
 
 .logo {
@@ -25,19 +30,28 @@
     height: 40px;
     margin-top: 10px;
     background: #536A63;
+    display: inline-block;
 }
 
 .sign-in {
     width: 100px;
     height: 40px;
+    margin-right: 10px;
+    margin-top: 10px;
     background: #536A63;
+    display: inline-block;
+    float: right;
 }
 
-/*  Step-1 Make this container overhang off its parent container using display and bottom properties.  */
+/*  Step-1 Make this container overhang off its parent container using display
+and bottom properties.  */
 
 .bottom-container {
     width: 60%;
     height: 60px;
     left: 22%;
     background: #536A63;
+    margin: auto;
+    position: absolute;
+    bottom: -30px;
 }
